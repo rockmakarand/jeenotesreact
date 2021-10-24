@@ -5,7 +5,7 @@ import img3 from './Images/apple.png'
 import img4 from './Images/mission.png'
 import './Home.css'
 
-alert('react website')
+
 
 const Home = () => (
   
