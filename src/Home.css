@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.container{
+    width: 30vw;
+    display: inline-block;
+    
+   
+    margin: 0 auto;
+   
+    box-shadow: 0px 0px 7px black;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.uuu{
+    width: 30vw;
+    display: inline-block;
+    
+   
+    margin: 0 auto;
+   
+    box-shadow: 0px 0px 7px black;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.mkk{
+    display: flex;
+    justify-content: space-around;
+}
+.oii{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.oir{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 0px 7px black;
+    width:40vw;
+}
+.miss{
+    width: 40vw;
+}
+@media screen and (max-width:1000px ) {
+    .mkk{
+        display: grid;
+    }
+    .container{
+        width: 90vw;
+        display: inline-block;
+        
+       
+        margin: 0 auto;
+       
+        box-shadow: 0px 0px 7px black;
+        background-color: white;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    
+    }
+    .uuu{
+        width: 90vw;
+        align-self: center;
+       
+       
+        box-shadow: 0px 0px 7px black;
+       
+    
+    }
+    .oii{
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .oir{
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        box-shadow: 0px 0px 7px black;
+        width:90vw;
+    }
+}
