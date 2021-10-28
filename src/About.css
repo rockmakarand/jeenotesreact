@@ -6,11 +6,19 @@
    
     margin: 0 auto;
    
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 20px gray;
     background-color: white;
     border-radius: 8px;
     margin-bottom: 20px;
 
+}
+.container:hover{
+    box-shadow: 0px 0px 30px gray;
+
+}
+.soc:hover{
+    transform: translate(10px,20px);
+    transition: 1s;
 }
 .mkk{
     display: flex;

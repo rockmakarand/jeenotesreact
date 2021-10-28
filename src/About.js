@@ -25,9 +25,9 @@ const About = () => {
           <br />
         <br />
          <div class="ioe">
-         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}></img></a>
-          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}></img></a>
-          <a href="https://www.linkedin.com/in/gautham-vijayan" style={{alignItems:'center'}}><img src={img3} style={{height:70}}></img></a>
+         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}} class="soc"></img></a>
+          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
+          <a href="https://www.linkedin.com/in/gautham-vijayan" style={{alignItems:'center'}}><img src={img3} style={{height:70}}class="soc"></img></a>
           <br />
          </div>
         <br />
@@ -43,9 +43,9 @@ const About = () => {
           <br />
         <br />
          <div class="ioe">
-         <a href="https://instagram.com/rockrockymakarand___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}></img></a>
-          <a href="https://rockmakarand/github.io" style={{alignItems:'center'}}><img src={img2} style={{height:70}}></img></a>
-          <a href="social-linkedin-circle-512.webp" style={{alignItems:'center'}}><img src={img3} style={{height:70}}></img></a>
+         <a href="https://instagram.com/rockrockymakarand___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}class="soc"></img></a>
+          <a href="https://rockmakarand/github.io" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
+          <a href="social-linkedin-circle-512.webp" style={{alignItems:'center'}}><img src={img3} style={{height:70}}class="soc"></img></a>
           <br />
          </div>
         <br />
@@ -71,9 +71,9 @@ const About = () => {
           <br />
         <br />
          <div class="ioe">
-         <a href="https://instagram.com/neerajkreddy007?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}></img></a>
-          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}></img></a>
-          <a href="https://www.linkedin.com/in/neeraj-kumar-reddy-velagala-7648431bb" style={{alignItems:'center'}}><img src={img3} style={{height:70}}></img></a>
+         <a href="https://instagram.com/neerajkreddy007?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}class="soc"></img></a>
+          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
+          <a href="https://www.linkedin.com/in/neeraj-kumar-reddy-velagala-7648431bb" style={{alignItems:'center'}}><img src={img3} style={{height:70}}class="soc"></img></a>
           <br />
          </div>
         <br />
@@ -91,9 +91,9 @@ const About = () => {
           <br />
         <br />
          <div class="ioe">
-         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}></img></a>
-          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}></img></a>
-          <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img3} style={{height:70}}></img></a>
+         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}class="soc"></img></a>
+          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
+          <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img3} style={{height:70}}class="soc"></img></a>
           <br />
          </div>
         <br />
@@ -108,8 +108,8 @@ const About = () => {
           <br />
         <br />
          <div class="ioe">
-         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}></img></a>
-          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}></img></a>
+         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}class="soc"></img></a>
+          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
           <br />
          </div>
         <br />
