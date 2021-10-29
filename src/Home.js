@@ -4,6 +4,7 @@ import img2 from './Images/youtube.png'
 import img3 from './Images/apple.png'
 import img4 from './Images/mission.png'
 import './Home.css'
+import { signInWithGoogle,auth,db } from './Firebase'
 
 
 
@@ -12,6 +13,7 @@ const Home = () => (
  
         <div>
         <br />
+        
         <h1 style={{color: 'palevioletred',textAlign:'center',fontSize:50}}><b>JEE Notes APP</b></h1>      
           <h1 style={{color: 'cyan',textAlign:'center',fontSize:50}}><b>by the students of...</b></h1>
           <h1 style={{color: 'lime',textAlign:'center',fontSize:50}}><b>NIT Tiruchirapalli</b></h1>

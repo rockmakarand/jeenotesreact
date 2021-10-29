@@ -13,6 +13,7 @@ import About from './About';
 import Navbar from './Navbar';
 import Terms from './Terms';
 import iii from './iii'
+import Profile from './Profile';
 
 
 function App() {
@@ -37,8 +38,8 @@ function App() {
           <Route exact path="/terms">
             <Terms />
           </Route>
-          <Route exact path="/iii">
-            <iii />
+          <Route exact path="/Profile">
+            <Profile />
           </Route>
         </Switch>
         </main>

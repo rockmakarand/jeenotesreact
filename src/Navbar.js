@@ -102,6 +102,14 @@ const Navbar = () => {
                 </i>Terms and Conditions
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/Profile" exact>
+                <i 
+                className="far fa-copy">
+                </i>Profile
+              </NavLink>
+            </li>
+           
            
         </ul>
       </div>
