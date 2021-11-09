@@ -83,39 +83,7 @@ const About = () => {
            
 
         
-        <div class="container">
-                <h2 style={{textAlign:'center'}}>Suvetha Rasu</h2>
-                <br />
-                <h2 style={{fontWeight:'500',textAlign:'center'}}>
-               Suvetha has provided a lot of notes to the NEET App</h2>
-          <br />
-        <br />
-         <div class="ioe">
-         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}class="soc"></img></a>
-          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
-          <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img3} style={{height:70}}class="soc"></img></a>
-          <br />
-         </div>
-        <br />
-         
-
-            </div>
-            <div class="container">
-                <h2 style={{textAlign:'center'}}>Sindhu Arulraja</h2>
-                <br />
-                <h2 style={{fontWeight:'500',textAlign:'center'}}>
-                Sindhu is a student from Velammal Bodhi Academy and has provided Notes in Mathematics</h2>
-          <br />
-        <br />
-         <div class="ioe">
-         <a href="https://instagram.com/gautham_vijay___?utm_medium=copy_link" style={{alignItems:'center'}}><img src={img1} style={{height:70}}class="soc"></img></a>
-          <a href="https://github.com/Gautham495" style={{alignItems:'center'}}><img src={img2} style={{height:70}}class="soc"></img></a>
-          <br />
-         </div>
-        <br />
-         
-
-            </div>
+       
 
         </div>
         </div>
