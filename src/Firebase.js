@@ -14,7 +14,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 export const db=firebase.firestore();
 export const auth = firebase.auth();
-const googleProvider = new firebase.auth.GoogleAuthProvider()
+export const googleProvider = new firebase.auth.GoogleAuthProvider()
 export const signInWithGoogle = () => {
     auth.signInWithPopup(googleProvider).then((res) => {
       console.log(res.user)
@@ -22,7 +22,8 @@ export const signInWithGoogle = () => {
       console.log(error.message)
     })
   }
-
+ export const facebookProvider = new firebase.auth.FacebookAuthProvider();
+ 
 
 
 

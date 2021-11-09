@@ -7,7 +7,7 @@
    
     margin: 0 auto;
    
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 30px gray;
     background-color: white;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -16,6 +16,11 @@
 }
 .container:hover{
     box-shadow: 0px 0px 30px black;
+
+}
+.oii:hover{
+    transform: scale(1.4);
+    transition: 0.9s;
 
 }
 

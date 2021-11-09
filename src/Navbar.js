@@ -105,10 +105,11 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink className="nav-link" to="/Profile" exact>
                 <i 
-                className="far fa-copy">
+                className="far fa-address-book">
                 </i>Profile
               </NavLink>
             </li>
+           
            
            
         </ul>

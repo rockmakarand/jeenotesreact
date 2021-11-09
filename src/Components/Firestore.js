@@ -3,18 +3,19 @@ import React,{useEffect,useState} from 'react'
 import firebase from '@firebase/app-compat'; 
 import 'firebase/compat/firestore';
 
-import Login from '../Login';
+//import Login from '../Login';
 
 import { db } from '../Firebase';
 import { doc } from '@firebase/firestore';
-import Logout from '../Logout';
+import Profile from '../Profile';
+//import Logout from '../Logout';
 
 
 
 
 
 const Firestore = () => {
-    <Login/>
+    <Profile/>
 
     const[nameData,setNameData]=useState([])
     const [firestoreData,setFirestoreData] = useState(" ")

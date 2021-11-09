@@ -14,6 +14,8 @@ import Navbar from './Navbar';
 import Terms from './Terms';
 import iii from './iii'
 import Profile from './Profile';
+import Firestore from './Components/Firestore';
+import Facebooklogin from './Facebooklogin'
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
     
       <Router>
         <Navbar />
+        
         <main>
         <Switch>
         <Route exact path="/">
@@ -41,6 +44,7 @@ function App() {
           <Route exact path="/Profile">
             <Profile />
           </Route>
+       
         </Switch>
         </main>
      

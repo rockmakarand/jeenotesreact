@@ -6,10 +6,11 @@
    
     margin: 0 auto;
    
-    box-shadow: 0px 0px 7px black;
-    background-color: white;
-    border-radius: 8px;
+    box-shadow: 0px 0px 17px gainsboro;
+   border:3px white;
+    border-radius: 18px;
     margin-bottom: 20px;
+    padding-top: 20px;
 
 }
 .container:hover{
@@ -39,6 +40,17 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    border-radius: 10px;
+}
+.jee{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.oiii{
+    border-radius: 10px;
 }
 .oir{
     text-align: center;
@@ -48,18 +60,28 @@
     margin: auto;
     box-shadow: 0px 0px 7px black;
     width:40vw;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .miss{
-    width: 40vw;
+    width: 35vw;
 }
-.oii:hover{
-    transform: translate(10px,20px);
-    transition: 1s;
+.oiii:hover{
+   background-color: cadetblue;
 }
 .miss:hover{
-    transform: translate(10px,20px);
-    transition: 1s;
+    transform: scale(1.4);
+    transition: 0.9s;
+
 }
+.jee:hover{
+    transform: scale(1.4);
+    transition: 0.9s;
+
+}
+
 @media screen and (max-width:1000px ) {
     .mkk{
         display: grid;

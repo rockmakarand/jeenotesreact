@@ -1,11 +1,11 @@
 import React,{useEffect,useState} from 'react'
 import firebase from 'firebase/compat/app';
 
-import { signInWithGoogle,auth,db } from './Firebase'
+import { signInWithGoogle,auth,db,signInWithFacebook } from './Firebase'
 import {useAuthState} from 'react-firebase-hooks/auth'
 import 'firebase/compat/firestore';
 import './Profile.css'
-
+import img1 from './Images/g signin.png'
 
 
 
@@ -43,7 +43,7 @@ const Profile = () => {
         }
       
         if (!snapShot.exists) {
-          const { displayName, email, photoURL, uid } = userAuth;
+          const { displayName, email, photoURL, uid, phoneno } = userAuth;
          
           try {
 
@@ -51,7 +51,8 @@ const Profile = () => {
                 displayName:displayName,
                 email:email,
                 uid:uid,
-                photoURL:photoURL
+                photoURL:photoURL,
+                phoneno:phoneno
             })
 
           }
@@ -80,18 +81,38 @@ const firebaseLogout = () =>{
 
     return (
         <div>
-            <button onClick={signInWithGoogle} class="oyo">sign in with google</button>
+           <br/>
+            
+            <img src={img1} onClick={signInWithGoogle}class="ppp"></img>
+
+           
+           <br/>
+           <div class="oir">
+           <br/>
             <br/>
+            <h2 style={{textAlign:'center'}}>User Image:</h2>
             <br/>
-            <div  style={{textAlign:'center'}}><p style={{textAlign:'center'}}>User Image:</p><img src= {user.photoURL}></img></div>
+             <div><img src={user && user.photoURL} class="jj"></img> </div>
+             <br/>
+             <br/>
+             <h2 style={{textAlign:'center'}}>User Name:</h2>
             <br/>
+           <div>{user && user.displayName}</div>
+           <br/>
+             <br/>
+             <h2 style={{textAlign:'center'}}>User Email-ID:</h2>
             <br/>
-            <div  style={{textAlign:'center'}}><p style={{textAlign:'center'}}>User Name:</p> {user.displayName}</div>
-            <br/>
-            <br/>
-            <div  style={{textAlign:'center'}}><p style={{textAlign:'center'}}>User Email:</p> {user.email}</div>
-            <br/>
-            <br/>
+           <div> {user.email}</div>
+           <br/>
+             <br/>
+             
+           </div>
+           <br/>
+             <br/>
+            
+            
+           <br/>
+             <br/>
             
           
             

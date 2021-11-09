@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from './Images/instaa.png'
+import img1 from './Images/in2.png'
 import img2 from './Images/git.png'
 import img3 from './Images/link.png'
 import './About.css'
