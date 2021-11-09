@@ -85,7 +85,7 @@ const Home = () => (
         <br />
         <br />
         <div class="oir"  >
-          <img src={img4} class="miss"></img>
+          <img src={img4} class="misss"></img>
           <br />
         <br />
           <h1 style={{textAlign:'center',color:'darkgreen'}}>
