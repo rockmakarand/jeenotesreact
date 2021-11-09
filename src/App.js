@@ -15,7 +15,7 @@ import Terms from './Terms';
 import iii from './iii'
 import Profile from './Profile';
 import Firestore from './Components/Firestore';
-import Facebooklogin from './Facebooklogin'
+
 
 
 function App() {
@@ -41,9 +41,7 @@ function App() {
           <Route exact path="/terms">
             <Terms />
           </Route>
-          <Route exact path="/Profile">
-            <Profile />
-          </Route>
+         
        
         </Switch>
         </main>
