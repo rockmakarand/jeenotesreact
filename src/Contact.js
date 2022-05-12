@@ -1,11 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import img1 from './Images/in2.png'
 import img2 from './Images/what.png'
 import img3 from './Images/telll.png'
 import img4 from './Images/gmaii.png'
 import './Contact.css'
-
+import Aos from "aos"
+import "aos/dist/aos.css"
 const Contact = () => {
+    useEffect(()=>{
+        Aos.init({duration:3000});
+      },[]);
     return (
         <div>
             <br/>
@@ -16,7 +20,7 @@ const Contact = () => {
             <br/>
 
             <div class="mkk">
-            <div class="container">
+            <div class="container"data-aos="zoom-in">
             <h2 style={{textAlign:'center',fontWeight:500}}>
             Follow us at our INSTAGRAM page to get frequent updates about the App!</h2>
             
@@ -28,7 +32,7 @@ const Contact = () => {
             <br/>
             <br/>
                 </div>
-                <div class="container" >
+                <div class="container" data-aos="zoom-in">
             <h2 style={{textAlign:'center',fontWeight:500}}>
             Join our Whatsapp Group to get New Notes(suggestions) in the APP and free Counselling(JOSAA)</h2>
             <br/>
@@ -38,7 +42,7 @@ const Contact = () => {
             <br/>
                 </div>
                
-                <div class="container">
+                <div class="container"data-aos="zoom-in">
             <h2 style={{textAlign:'center',fontWeight:500}}>
             Join our Telegram Group to get New Notes(suggestions) in the APP and free Counselling(JOSAA)</h2>
             <br/>
@@ -57,7 +61,7 @@ const Contact = () => {
             <br/>
             <br/>
             <div class="mkk">
-            <div class="container" >
+            <div class="container" data-aos="zoom-in">
             <h2 style={{textAlign:'center',fontWeight:500}}>
            Email us if you have any queries and Doubts (Email to Neeraj Reddy)</h2>
             
@@ -69,7 +73,7 @@ const Contact = () => {
             <br/>
             <br/>
                 </div>
-                <div class="container">
+                <div class="container"data-aos="zoom-in">
             <h2 style={{textAlign:'center',fontWeight:500}}>
            Email us if you have any queries and Doubts (Email to Makarand)</h2>
             
@@ -81,7 +85,7 @@ const Contact = () => {
             <br/>
             <br/>
                 </div>
-                <div class="container">
+                <div class="container"data-aos="zoom-in">
             <h2 style={{textAlign:'center',fontWeight:500}}>
            Email us if you have any queries and Doubts (Email to Gautham Vijayan)</h2>
             

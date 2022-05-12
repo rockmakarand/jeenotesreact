@@ -15,7 +15,7 @@ import Terms from './Terms';
 import iii from './iii'
 import Profile from './Profile';
 import Firestore from './Components/Firestore';
-
+import Pay from './pay'
 
 
 function App() {
@@ -40,6 +40,9 @@ function App() {
           </Route>
           <Route exact path="/terms">
             <Terms />
+          </Route>
+          <Route exact path="/pay">
+            <Pay />
           </Route>
          
        

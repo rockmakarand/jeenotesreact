@@ -102,6 +102,13 @@ const Navbar = () => {
                 </i>Terms and Conditions
               </NavLink>
             </li>
+            <li className="nav-item active">
+              <NavLink className="nav-link" to="/pay" exact>
+                <i 
+                className="fas fa-tachometer-alt">
+                </i>Get Notes
+              </NavLink>
+            </li>
             
            
            

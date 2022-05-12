@@ -6,10 +6,7 @@ const Terms = () => {
         <div>
              <br/>
             <br/>
-            <h1 style={{textAlign:'center',color:'darkorchid'}}>
-           Terms, Conditions and Privacy Policies</h1>
-           <br/>
-            <br/>
+           
             <div class="mkk">
             <br/>
             <br/>
@@ -19,7 +16,7 @@ const Terms = () => {
            <br/>
             <br/>
             <div class="iiu">
-            <button style={{backgroundColor:'royalblue',width:200,height:50,borderRadius:20,textDecoration:'none',color:'white',fontSize:25,boxShadow:'0 0 20 black'}} class="oii"><a href="https://jee-chemistry-notes-0.flycricket.io/terms.html"style={{textDecoration:'none',color:'white',fontSize:25}} >Click Here</a></button>
+            <button style={{backgroundColor:'royalblue',width:200,height:50,borderRadius:20,textDecoration:'none',color:'white',fontSize:25,boxShadow:'0 0 20 black'}} class="oia"><a href="https://jee-chemistry-notes-0.flycricket.io/terms.html"style={{textDecoration:'none',color:'white',fontSize:25}} >Click Here</a></button>
           
             </div>
             <br/>
@@ -31,7 +28,7 @@ const Terms = () => {
            <br/>
             <br/>
             <div class="iiu">
-            <button style={{backgroundColor:'darkorchid',width:200,height:50,borderRadius:20}} class="oii"> <a href="https://www.returnrefundpolicytemplate.com/live.php?token=MWjEmZYZrE9lLQOwVDRR2MoMOuRDis3A" style={{textDecoration:'none',color:'white',fontSize:25}}>Click Here</a> </button>
+            <button style={{backgroundColor:'darkorchid',width:200,height:50,borderRadius:20}} class="oia"> <a href="https://www.returnrefundpolicytemplate.com/live.php?token=MWjEmZYZrE9lLQOwVDRR2MoMOuRDis3A" style={{textDecoration:'none',color:'white',fontSize:25}}>Click Here</a> </button>
          
             </div>           
              <br/>
@@ -49,7 +46,7 @@ const Terms = () => {
            <br/>
             <br/>
             <div class="iiu">
-            <button style={{backgroundColor:'green',width:200,height:50,borderRadius:20,textDecoration:'none',color:'white',fontSize:25}} class="oii"><a href="https://jee-chemistry-notes-0.flycricket.io/privacy.html"style={{textDecoration:'none',color:'white',fontSize:25}} >Click Here</a></button>
+            <button style={{backgroundColor:'green',width:200,height:50,borderRadius:20,textDecoration:'none',color:'white',fontSize:25}} class="oia"><a href="https://jee-chemistry-notes-0.flycricket.io/privacy.html"style={{textDecoration:'none',color:'white',fontSize:25}} >Click Here</a></button>
           
             </div>
             <br/>

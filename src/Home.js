@@ -1,16 +1,23 @@
-import React from 'react'
+import React,{ useEffect}from 'react'
 import img1 from './Images/gplay.png'
 import img2 from './Images/youtube.png'
 import img3 from './Images/apple.png'
 import img4 from './Images/mission.png'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import './Home.css'
 import { signInWithGoogle,auth,db } from './Firebase'
+//import { motion } from 'framer-motion'
 
 
 
-const Home = () => (
+const Home = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000});
+  },[]);
   
- 
+  
+ return(
         <div >
         <br />
         
@@ -22,7 +29,7 @@ const Home = () => (
         
         <br />
         <br />
-        <div class="mkk">
+        <div class="mkk" data-aos="fade-up">
             <div class="container">
                 <h1 style={{textAlign:'center',color:'darkcyan'}}>Chemistry App</h1>
                 <br />
@@ -45,7 +52,7 @@ const Home = () => (
           <a href="https://www.youtube.com/watch?v=zciygP464Oo"><img src={img2} style= {{height:130}} class="jee"></img></a>
 
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <h1 style={{textAlign:'center',color:'orchid'}}>Physics App</h1>
                 <br />
                 <h2 style={{fontWeight:'500',textAlign:'center'}}>
@@ -61,18 +68,16 @@ const Home = () => (
           <a href="https://www.youtube.com/watch?v=zciygP464Oo"><img src={img2} style= {{height:130}} class="jee"></img></a>
 
             </div>
-            <div class="container">
+            <div class="container"data-aos="fade-up">
                 <h1 style={{textAlign:'center',color:'red'}}>Mathematics App</h1>
                 <br />
                 <h2 style={{fontWeight:'500',textAlign:'center'}}>
-                The Physics Notes App is our second project. The app has notes combined 
+                The Mathematics Notes App is our Third project. The app has notes combined 
               from institutes in Andhra Pradesh, Tamil Nadu and Telangana. The app is available 
           only in Google Playstore as of now</h2>
           <br />
         <br />
-          <a href="https://play.google.com/store/apps/details?id=com.gauthamchemnotes" style={{alignItems:'center'}}><img src={img1} style={{height:70}} class="jee"></img></a>
-          <br />
-        <br />
+         
           <h2 style={{fontWeight:'500',textAlign:'center'}}>You can also watch our guide to use the APP efficiently!</h2>
           <a href="https://www.youtube.com/watch?v=zciygP464Oo"><img src={img2} style= {{height:130}} class="jee"></img></a>
 
@@ -84,7 +89,11 @@ const Home = () => (
         <br />
         <br />
         <br />
-        <div class="oir"  >
+        <div class="oir" data-aos="zoom-in" 
+        animate={{
+          opacity:1
+        }}
+        >
           <img src={img4} class="misss"></img>
           <br />
         <br />
@@ -115,7 +124,7 @@ const Home = () => (
         <br />
         <br />
         <h1 style={{textAlign:'center',color:'darkcyan'}}>
-               Please give us npFEEDBACK About the Apps and the Website in the form below:</h1>
+               Please give us a FEEDBACK About the Apps and the Website in the form below:</h1>
        
                <br />
         <br />
@@ -123,7 +132,7 @@ const Home = () => (
         
     
             
-                <div class="oir" >
+                <div class="oir" data-aos="flip-right">
                     <form action="https://formspree.io/f/mzbyrpev" method="POST">
                         <div class="form-group" class="oij">
                             <label for="firstname" style={{color:'brown', textAlign:'center'}}><b> Name:</b></label>
@@ -174,7 +183,8 @@ const Home = () => (
        
 
     </div>
+ )
     
-)
+      }
 
 export default Home

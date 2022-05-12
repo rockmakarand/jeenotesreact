@@ -1,0 +1,77 @@
+.ouu{
+    width: 200px;
+    justify-content: center;
+    justify-items: center;
+    background-color: royalblue;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30px;
+
+}
+.ouy{
+    width: 200px;
+    justify-content: center;
+    justify-items: center;
+    background-color: red;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30px;
+
+}
+.ouz{
+    width: 200px;
+    justify-content: center;
+    justify-items: center;
+    background-color: darkorchid;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30px;
+
+}
+.oup{
+    width: 200px;
+    justify-content: center;
+    justify-items: center;
+    background-color: green;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30px;
+
+}
+.con{
+    box-shadow: 0px 0px 8px gainsboro;
+    width: 30vw;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.mm{
+    display: flex;
+}
+@media screen and (max-width:1000px ) {
+    .con{
+        width: 90vw;
+    }
+    .mm{
+        display: block;
+    }
+}

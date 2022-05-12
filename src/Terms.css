@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-around;
 }
-.oii{
+.oia{
     text-align: center;
     display: block;
     justify-content: center;
@@ -32,6 +32,10 @@
    
     
 
+}
+.oia:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 @media screen and (max-width:1000px ) {
     .mkk{
