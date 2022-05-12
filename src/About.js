@@ -1,3 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/alt-text */
 import React,{ useEffect} from 'react'
 import img1 from './Images/in2.png'
 import img2 from './Images/git.png'
